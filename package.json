@@ -6,6 +6,14 @@
   "main": "index.js",
   "author": "KeizerDev",
   "license": "BSD",
+  "keywords": [
+    "audio",
+    "sound",
+    "streaming",
+    "osx",
+    "linux",
+    "chromecast"
+  ],
   "devDependencies": {
     "chromecasts": "~1.7.1",
     "ip": "~1.1.0",
