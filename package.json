@@ -1,6 +1,6 @@
 {
   "name": "chromecast-unix-audio",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Stream audio input to a local Chromecast device from any unix based os.",
   "preferGlobal": true,
   "main": "index.js",
