@@ -1,0 +1,14 @@
+{
+  "name": "chromecast-unix-audio",
+  "version": "0.3.0",
+  "description": "Stream audio input to a local Chromecast device from any unix based os.",
+  "preferGlobal": true,
+  "main": "index.js",
+  "author": "KeizerDev",
+  "license": "BSD",
+  "devDependencies": {
+    "chromecasts": "~1.7.1",
+    "ip": "~1.1.0",
+    "shelljs": "~0.5.3"
+  }
+}
