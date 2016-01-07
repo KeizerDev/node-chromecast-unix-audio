@@ -17,3 +17,5 @@ $ dnf install cvlc
 $ apt-get install cvlc
 ```
 
+##Cons
+There is a delay of about 10 seconds.
