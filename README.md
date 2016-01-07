@@ -6,7 +6,7 @@ Uses `cvlc` to create an http stream of your local audio and sends it to the chr
 $ (sudo) npm install -g node-chromecast-linux-audio
 ```
 
-Make sure you have the `cvlc` library installed on your preffered os, some examples:
+Make sure you have the `cvlc` library installed on your preffered os, some examples:   
 **Fedora**
 ```
 $ dnf install cvlc
