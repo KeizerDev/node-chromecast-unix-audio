@@ -3,7 +3,7 @@ Uses `cvlc` to create an http stream of your local audio and sends it to the chr
 
 ##Installation
 ```
-$ (sudo) npm install -g node-chromecast-linux-audio
+$ (sudo) npm install -g chromecast-unix-audio
 ```
 
 Make sure you have the `cvlc` library installed on your preffered os, some examples:   
@@ -17,3 +17,5 @@ $ dnf install cvlc
 $ apt-get install cvlc
 ```
 
+##Cons
+There is a delay of about 10 seconds.
