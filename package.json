@@ -3,9 +3,9 @@
   "version": "0.3.3",
   "description": "Stream audio input to a local Chromecast device from any unix based os.",
   "preferGlobal": true,
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "main": "./lib/index.js",
+  "bin": {
+    "chromecast-unix-audio": "bin/index.js"
   },
   "author": "KeizerDev",
   "license": "BSD",
@@ -17,7 +17,7 @@
     "linux",
     "chromecast"
   ],
-  "devDependencies": {
+  "dependencies": {
     "chromecasts": "~1.7.1",
     "ip": "~1.1.0",
     "shelljs": "~0.5.3"
